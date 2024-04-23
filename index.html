@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Money-Man Login Page</title>
+  <link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+
+<body>
+ 
+
+
+  <div class="wrapper">
+    <div class="form-wrapper sign-in">
+      <form action="">
+        <h1>Money-Man</h1>
+        <!-- <h5>Save like a Superhero</h5> -->
+        <h2>Login</h2>
+        <div class="input-group">
+          <input type="text" required id="email">
+          <label for="">Username</label>
+        
+        </div>
+        <div class="input-group">
+          <input type="password" required id="password">
+          <label for="">Password</label>
+        </div>
+        <div class="remember">
+          <label><input type="checkbox"> Remember me</label>
+        </div>
+        <!-- <input type="submit" value="Login" class="submit-btn" onclick="auth()"/> -->
+        <!-- <button type="submit" class="btn btn-outline" onClick="auth()">Login</button> -->
+        <button id="myButton" class="float-left submit-button" >Login</button>
+        <button id="myButton2" class="float-left submit-button" >Sign In As Guest</button>
+
+        <div class="signUp-link">
+          <p>Don't have an account? <a href="#" class="signUpBtn-link">Sign Up</a></p>
+        </div>
+      </form>
+    </div>
+
+    <!-- <script type="text/javascript">
+      document.getElementById("myButton").onclick = function () {
+          location.href = "www.yoursite.com";
+          alert("Hi");
+      };
+  </script> -->
+
+
+
+
+
+
+
+    <div class="form-wrapper sign-up">
+      <form action="">
+        <h2>Sign Up</h2>
+        <div class="input-group">
+          <input type="text" required>
+          <label for="">Username</label>
+        </div>
+        <div class="input-group">
+          <input type="email" required>
+          <label for="">Email</label>
+        </div>
+        <div class="input-group">
+          <input type="password" required>
+          <label for="">Password</label>
+        </div>
+        <div class="remember">
+          <label><input type="checkbox"> I agree to the terms & conditions</label>
+        </div>
+        <button type="submit">Sign Up</button>
+        <div class="signUp-link">
+          <p>Already have an account? <a href="#" class="signInBtn-link">Sign In</a></p>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+  <!-- <script>
+    function auth(){
+    var email = document.getElementById("email").value;
+    var password = document.getElementById("password").value;
+
+    if(email=="admin@gmail.com" && password=="sahil123"){
+        // window.location.assign="Home.html";
+        window.location.replace("Home.html");
+        alert("Login Succesful");
+    }else{
+        alert("Invalid Information");
+        return;
+    }
+}
+  </script> -->
+
+  <!--  <script>
+    function auth() {
+    var email = document.getElementById("email").value;
+    var password = document.getElementById("password").value;
+
+    if (email === "admin@gmail.com" && password === "user") {
+        // window.location.replace("www.youtube.com");
+        location.href = "www.yoursite.com";
+        // alert("You Are a ADMIN");
+
+    } else {
+        alert("Invalid information");
+        return;
+    } -->
+
+<!-- } -->
+
+  <!-- </script> -->
+</body>
+
+</html>
